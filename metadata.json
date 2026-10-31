@@ -1,0 +1,6 @@
+{
+  "name": "Global Business & Executive Lead Radar",
+  "description": "Discover businesses worldwide by country, postal code, or city and deep-crawl verified owner and executive personal emails with authentication, user-scoped search history, and saved leads vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

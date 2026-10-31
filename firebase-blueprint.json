@@ -1,0 +1,56 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        "profile": {
+          "email": "string",
+          "displayName": "string",
+          "createdAt": "string",
+          "hasPaidAccess": "boolean",
+          "paidAt": "string",
+          "stripeSessionId": "string"
+        },
+        "searchHistory": {
+          "$searchId": {
+            "id": "string",
+            "title": "string",
+            "zipcodes": "array",
+            "country": "string",
+            "category": "string",
+            "keyword": "string",
+            "totalFound": "number",
+            "center": "object",
+            "businesses": "array",
+            "crawledCount": "number",
+            "personalEmailsCount": "number",
+            "createdAt": "string",
+            "updatedAt": "string"
+          }
+        },
+        "savedLeads": {
+          "$leadId": {
+            "id": "string",
+            "name": "string",
+            "category": "string",
+            "address": "string",
+            "city": "string",
+            "state": "string",
+            "zipcode": "string",
+            "country": "string",
+            "phone": "string",
+            "website": "string",
+            "rating": "number",
+            "reviewCount": "number",
+            "latitude": "number",
+            "longitude": "number",
+            "googleMapsUrl": "string",
+            "enrichmentStatus": "string",
+            "executiveDetails": "object",
+            "notes": "string",
+            "savedAt": "string"
+          }
+        }
+      }
+    }
+  }
+}
